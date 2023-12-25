@@ -1,0 +1,33 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/bgg2.png);
+    background-size: cover;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 100px;
+    color: #FFD800;
+    text-shadow: 5px 5px 0px #000
+
+    ;
+}
+
+#start-btn {
+    font-size: 45px;
+    padding: 30px 55px;
+    color: #000;
+    background-color: #FFD800;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#start-btn:hover {
+    background-color: #FFED00;
+}

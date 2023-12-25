@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/bg.png);
+    background-size: cover;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 0px #438789;
+}
+
+.loading-bar-container {
+    width: 30%;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.loading-bar {
+    width: 0%;
+    height: 100%;
+    background-color: coral;
+    border-radius: 5px;
+    transition: width [loading-time]s ease-in-out;
+}

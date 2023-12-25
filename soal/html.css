@@ -1,0 +1,105 @@
+/* General styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/bgg2.png);
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  /* Game container */
+#game {
+    width: 80%;
+    max-width: 700px;
+    height: 80%;
+    background-color: #A0D995;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+  /* HUD */
+#hud {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid #fff;
+    background-color: #f0d53a;
+    border-radius: 10px;
+}
+
+.hud-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.hud-prefix {
+    font-size: 14px;
+    color: #000000;
+}
+
+.hud-main-text {
+    font-size: 24px;
+    color: #333;
+}
+
+#progressBar {
+    width: 100%;
+    height: 10px;
+    background-color: #ccc;
+}
+
+#progressBarFull {
+    width: 0%;
+    height: 100%;
+    background-color: #0000ff;
+    transition: width 0.5s ease-in-out;
+}
+
+#question {
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.choice-container {
+    margin-top: 20px;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.choice-text {
+    font-size: 16px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #FFED00;
+    border: 1px solid #ccc;
+}
+
+.choice-text:hover {
+    background-color: #FFD800;
+}
+
+.btn {
+    display: flow-root;
+    padding: 10px 15px;
+    background-color: #FFD800;
+    color: #FFED00;
+    border: none;
+    border-radius: 5px;
+    margin: 15px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
